@@ -1,0 +1,97 @@
+* {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-family: 'Archivo Black';
+}
+
+@keyframes customBounce {
+    30% {
+        transform: scale(1.2);
+    }
+
+    40%,
+    60% {
+        transform: rotate(-20deg) scale(1.2);
+    }
+
+    50% {
+        transform: rotate(20deg) scale(1.2);
+    }
+
+    70% {
+        transform: rotate(0deg) scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.about-logos {
+    animation: customBounce 1.5s infinite;
+}
+
+/* Adjusting the size of the logo */
+.about-logo {
+    width: 300%;
+    max-width: 5000px; /* or any size you prefer */
+}
+
+.w-full button:hover .svgg path {
+    fill: black;
+}
+* {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-family: 'Archivo Black';
+}
+
+@keyframes customBounce {
+    30% {
+        transform: scale(1.2);
+    }
+
+    40%,
+    60% {
+        transform: rotate(-20deg) scale(1.2);
+    }
+
+    50% {
+        transform: rotate(20deg) scale(1.2);
+    }
+
+    70% {
+        transform: rotate(0deg) scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.about-logos {
+    animation: customBounce 1.5s infinite;
+}
+
+.w-full button:hover .svgg path {
+    fill: black;
+}
+
+/* Centering the content */
+#about .main-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Ensuring text is centered */
+}
+body {
+    cursor: url('images/custom-cursor.png'), auto;
+}
